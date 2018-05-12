@@ -1,0 +1,22 @@
+{
+  "name": "native-installer",
+  "version": "1.0.0",
+  "description": "Cross-browser native messaging installer for webextensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "native-installer": "./bin.js"
+  },
+  "keywords": ["native-messaging", "webextension", "installer"],
+  "author": "soyuka",
+  "license": "MIT",
+  "optionalDependencies": {
+    "regedit": "3.0.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}

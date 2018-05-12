@@ -1,0 +1,44 @@
+{
+  "chrome": {
+    "darwin": {
+      "global": "/Library/Google/Chrome/NativeMessagingHosts/%name%.json",
+      "user": "%home%/Library/Application Support/Google/Chrome/NativeMessagingHosts/%name%.json"
+    },
+    "win32": {
+      "global": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Google\\Chrome\\NativeMessagingHosts\\%name%",
+      "user": "HKEY_CURRENT_USER\\SOFTWARE\\Google\\Chrome\\NativeMessagingHosts\\%name%"
+    },
+    "linux": {
+      "global": "/etc/opt/chrome/native-messaging-hosts/%name%.json",
+      "user": "%home%/.config/google-chrome/NativeMessagingHosts/%name%.json"
+    }
+  },
+  "chromium": {
+    "darwin": {
+      "global": "/Library/Application Support/Chromium/NativeMessagingHosts/%name%.json",
+      "user": "%home%/Library/Application Support/Chromium/NativeMessagingHosts/%name%.json"
+    },
+    "win32": {
+      "global": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Chromium\\NativeMessagingHosts\\%name%",
+      "user": "HKEY_CURRENT_USER\\SOFTWARE\\Chromium\\NativeMessagingHosts\\%name%"
+    },
+    "linux": {
+      "global": "/etc/chromium/native-messaging-hosts/%name%.json",
+      "user": "%home%/.config/chromium/NativeMessagingHosts/%name%.json"
+    }
+  },
+  "firefox": {
+    "darwin": {
+      "global": "/Library/Application Support/Mozilla/NativeMessagingHosts/%name%.json",
+      "user": "%home%/Library/Application Support/Mozilla/NativeMessagingHosts/%name%.json"
+    },
+    "win32": {
+      "global": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Mozilla\\NativeMessagingHosts\\%name%",
+      "user": "HKEY_CURRENT_USER\\SOFTWARE\\Mozilla\\NativeMessagingHosts\\%name%"
+    },
+    "linux": {
+      "global": "/usr/lib/mozilla/native-messaging-hosts/%name%.json",
+      "user": "%home%/.mozilla/native-messaging-hosts/%name%.json"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "swarm",
+  "description": "Discovery swarm",
+  "path": "example.js",
+  "type": "stdio",
+  "allowed_extensions": [ "dat@example.org"  ]
+}
